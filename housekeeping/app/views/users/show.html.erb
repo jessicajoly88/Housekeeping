@@ -1,1 +1,7 @@
 <%= @user.name %>
+<%= @user.schedule %>
+<% @user.cleanings.each do |cleaning|%>
+  <h4><%= cleaning.apartment.name %></h4>
+  <h3><%= cleaning.apartment.address %></h3>
+  <h3><%= cleaning.apartment.duration_estimate %> to clean</h3>
+<% end %>
