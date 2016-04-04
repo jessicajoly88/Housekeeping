@@ -1,28 +1,21 @@
-== README
+# _{Housekeeping V-Next}_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _{An Almost tool for Flatbook's Housekeepers}, {April 4, 2016}_
 
-Things you may want to cover:
+#### By _**{Jessica Joly}**_
 
-* Ruby version
+## Description and Shortcomings
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+_{The app currently allows a housekeeper to check in on his or her schedule and the information related to the appropriate apartment on the list.
+I meant to have an entrance information attribute to each apartment so that the housekeeper would have all the information needed to enter. I would definitely add that so that all
+the information is in one place. Furthermore, my approach was to seed the information for the moment involving the housekeepers, the apartments and the cleanings which represent each cleaning event. Ideally, under each cleaning event that pops up on the
+housekeeper's show page, there would be a form field to update the information to include things such as comments and a timer(to calculate when cleaning was started and ended). Each cleaning has attributes related to the time start_time and end_time. It just be a question of allowing the user to press a button when they start that captures date and time and another button
+when they end that captures the end time. }_
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Technologies Used
+
+_{Ruby on Rails}_
+
+
+Copyright (c) 2015 **_{Jessica Joly}_**
