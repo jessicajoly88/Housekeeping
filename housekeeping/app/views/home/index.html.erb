@@ -1,0 +1,11 @@
+<div class="container">
+  <center>
+    <h1>The Housekeeping App</h1>
+  </center>
+  <center>
+    <p> Click on your name to see your schedule and details</p>
+  </center>
+  <% @users.each do |user| %>
+    <%= link_to user.name, user_path(user) %>
+  <% end %>
+</div>
